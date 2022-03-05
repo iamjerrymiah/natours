@@ -1,0 +1,42 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "first node work",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "start:prod": "NODE_ENV=production nodemon server.js",
+    "debug": "ndb server.js",
+    "watch:js": "parcel watch ./public/js/index.js --out-dir ./public/js --out-file bundle.js",
+    "build:js": "parcel watch ./public/js/index.js --out-dir ./public/js --out-file bundle.js"
+  },
+  "author": "Nwafor Jeremiah",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "a": "^2.1.2", 
+    "axios": "^0.25.0", 
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^6.2.0",
+    "helmet": "^5.0.2",
+    "hpp": "^0.2.3",
+    "html-to-text": "^8.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.14",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.1",
+    "nodemailer": "^6.7.2",
+    "nodemon": "^2.0.15",
+    "parcel-bundler": "^1.12.5",
+    "pug": "^3.0.2",
+    "sharp": "^0.30.1",
+    "slugify": "^1.6.5",
+    "stripe": "^8.202.0",
+    "validator": "^13.7.0",
+    "xss-clean": "^0.1.1"
+  }
+}
